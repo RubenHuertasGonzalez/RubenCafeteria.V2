@@ -12,7 +12,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/ivFoodRecycler"
+            android:id="@+id/ivDrinkRecycler"
             android:layout_width="150dp"
             android:layout_height="150dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -20,29 +20,29 @@
             tools:background="@color/black" />
 
         <TextView
-            android:id="@+id/tvFoodRecyclerTitle"
+            android:id="@+id/tvDrinkRecyclerTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
             android:textSize="21sp"
             android:textStyle="bold"
             android:textColor="@color/black"
-            app:layout_constraintStart_toEndOf="@id/ivFoodRecycler"
+            app:layout_constraintStart_toEndOf="@id/ivDrinkRecycler"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="RubenCafeteria" />
 
         <TextView
-            android:id="@+id/tvFoodRecyclerDescription"
+            android:id="@+id/tvDrinkRecyclerDescription"
             android:layout_width="147dp"
             android:layout_height="84dp"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/ivFoodRecycler"
-            app:layout_constraintTop_toBottomOf="@id/tvFoodRecyclerTitle"
+            app:layout_constraintStart_toEndOf="@id/ivDrinkRecycler"
+            app:layout_constraintTop_toBottomOf="@id/tvDrinkRecyclerTitle"
             tools:text="Descripcion" />
 
         <TextView
-            android:id="@+id/tvFoodRecyclerPrice"
+            android:id="@+id/tvDrinkRecyclerPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"

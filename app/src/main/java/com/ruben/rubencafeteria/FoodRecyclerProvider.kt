@@ -4,16 +4,10 @@ class FoodRecyclerProvider {
     companion object{
         val FoodRecyclerList= listOf<FoodRecycler>(
             FoodRecycler(
-                "Cafe con leche",
-                "Riquisimo cafe con leche de una buena vaca.",
-                "1.60€",
-                "https://www.cafescandelas.com/uploads/media_items/caf%C3%A9-con-leche-grande.500.500.s.jpg"
-            ),
-            FoodRecycler(
-                "Capuccino",
-                "Capuccino rico en salud.",
-                "1.80€",
-                "https://s1.1zoom.me/big0/906/Coffee_Cappuccino_White_background_Cup_Spoon_Heart_561241_1365x1024.jpg"
+                "Crepe de nutella",
+                "Increible crepe que te chupas los dedos.",
+                "2.00€",
+                "https://img.freepik.com/fotos-premium/crepes-relleno-sabor-chocolate-aislado-sobre-fondo-blanco_955834-7241.jpg"
             ),
             FoodRecycler(
                 "Chucho de crema",
@@ -38,6 +32,24 @@ class FoodRecyclerProvider {
                 "Donut con mas azucar que otra cosa.",
                 "0.70€",
                 "https://www.deanshop.es/uploads/photo/image/154861/thumb_donuts_azucar.jpg"
+            ),
+            FoodRecycler(
+                "Bocadillo de fuet",
+                "Fuet de casa tarradellas, bueno que te cagas.",
+                "3.20€",
+                "https://www.canpalou.com/web/wp-content/uploads/2020/10/bocadillo-salchicho%CC%81n.jpg"
+            ),
+            FoodRecycler(
+                "Bocadillo de xorizo",
+                "Xorizo picantito, te ardera el cuello.",
+                "3.20€",
+                "https://recetasparasolteros42.files.wordpress.com/2016/04/bocadillo-chorizo21.jpg?w=640"
+            ),
+            FoodRecycler(
+                "Bocadillo de jamon",
+                "Jamon serrano, 28J, muy jugoso.",
+                "3.50€",
+                "https://t4.ftcdn.net/jpg/02/29/24/55/360_F_229245505_GFK1TS1aiav8o7RGPoSzjOF7hFvXDGrJ.jpg"
             ),
         )
     }

@@ -1,4 +1,4 @@
-package com.ruben.rubencafeteria.adapter
+package com.ruben.rubencafeteria.adapterFood
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
