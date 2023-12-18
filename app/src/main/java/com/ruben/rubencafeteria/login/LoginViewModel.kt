@@ -1,13 +1,10 @@
-package com.ruben.rubencafeteria
+package com.ruben.rubencafeteria.login
 
 import androidx.lifecycle.ViewModel
+import com.ruben.rubencafeteria.User
 
 class LoginViewModel : ViewModel() {
-
-    private val userList = listOf(
-        User("ruben", "123"),
-        User("enaitz", "321")
-    )
+    val userList: List<User> get() = LoginProvider.loadUsers()
 
     fun validateUser(username: String, password: String): Boolean {
         for (user in userList) {
@@ -18,3 +15,4 @@ class LoginViewModel : ViewModel() {
         return false
     }
 }
+

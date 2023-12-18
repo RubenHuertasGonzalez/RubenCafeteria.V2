@@ -10,7 +10,7 @@
         android:paddingTop="16dp"
         android:paddingRight="16dp"
         android:paddingBottom="16dp"
-        tools:context=".LoginActivity">
+        tools:context=".login.LoginActivity">
 
         <ImageView
             android:id="@+id/imageViewLogo"
@@ -44,6 +44,14 @@
             android:layout_below="@id/editTextPassword"
             android:layout_marginTop="16dp"
             android:text="Iniciar Sesión" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonLogin"
+            android:layout_marginTop="16dp"
+            android:text="Registrarse" />
 
     </RelativeLayout>
 </layout>
