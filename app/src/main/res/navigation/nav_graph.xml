@@ -19,4 +19,8 @@
         android:name="com.ruben.rubencafeteria.PayFragment"
         android:label="fragment_pay"
         tools:layout="@layout/fragment_pay" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="MainActivity"
+        android:label="MainActivity" />
 </navigation>
