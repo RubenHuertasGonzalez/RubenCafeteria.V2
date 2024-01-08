@@ -7,6 +7,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.ruben.rubencafeteria.DrinkRecycler
 import com.ruben.rubencafeteria.R
+import com.ruben.rubencafeteria.pay.Pay
+import com.ruben.rubencafeteria.pay.PayProvider
 
 class DrinkRecyclerViewHolder(view : View):RecyclerView.ViewHolder(view){
 
@@ -20,6 +22,11 @@ class DrinkRecyclerViewHolder(view : View):RecyclerView.ViewHolder(view){
         drinkRecyclerDescription.text = drinkRecyclerModel.description
         drinkRecyclerPrice.text = drinkRecyclerModel.price
         Glide.with(drinkRecyclerPhoto.context).load(drinkRecyclerModel.photo).into(drinkRecyclerPhoto)
+
+        itemView.setOnClickListener{
+            var pay =  Pay(drinkRecyclerModel.title, drinkRecyclerModel.price, drinkRecyclerModel.description ,drinkRecyclerModel.photo)
+            PayProvider.payList.add(PayProvider.payList.size, pay)
+        }
 
     }
 }
